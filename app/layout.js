@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="h-full lg:ml-72 xl:ml-80">
-          <Header />
+          <Header docs={allDocuement}/>
           <div className="relative px-4 pt-14 sm:px-6 lg:px-8">
             <main className="flex-auto py-12">
               {/* Green Top Overlay  */}
